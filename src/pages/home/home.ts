@@ -6,12 +6,13 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
+  nombre = '';
 
   constructor(public navCtrl: NavController) {
 
   }
   click() {
-    console.log('click');
+    console.log('hola', this.nombre);
   }
 
 }
